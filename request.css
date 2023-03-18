@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.r_content .r_heading{
+    color:black;
+    text-align: center;
+      margin: 5px;
+      font-size: 40px;
+      font-family: 'Montserrat', sans-serif;
+}
+.r_content{
+    padding-top: 215px;
+} 
+.r_content p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(168, 167, 167, 0.962) ;
+    font-family: 'Montserrat', sans-serif; 
+}
+.r_form input[type=text], input[type=email], select {
+    width: 45%;
+    padding: 12px 0;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .r_form input[type=submit] {
+    width: 45%;
+    background-color: #a00 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .r_form input[type=submit]:hover {
+    background-color:#a00;
+  }
+  
+ .r_form{
+    padding: 35px;
+  }

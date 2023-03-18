@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+}
+.navend{
+    position: absolute;
+    width: 1534px;
+    height: 5px;
+    left: 0px;
+    top: 130px;
+    background: #a00;
+}
+.donor_content .donor_cinfo h1{
+    color:black;
+  text-align: center;
+    margin: 5px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.donor_content .donor_cinfo span{
+    color: #a00;
+}
+.d_span{
+    display: flex;
+}
+.donor_content .donor_cinfo .d_span span{
+    
+    width: 700px;
+    height: 0.1px;
+    padding: 1px;
+    margin: 28px;
+    background:rgba(238,56,49,1);   
+}
+.d_row{
+    margin-top: 17px;
+display: flex;
+justify-content: space-between;
+}
+.d_row .col{
+    width: 350px;
+text-align: center;
+color:rgba(137, 134, 134, 0.962) ;
+font-size: 20px;
+font-weight: 600;
+font-family: 'Montserrat', sans-serif;
+}
+.d_row .col p{
+    margin-top: 8px;
+    font-size: 15px;
+    color:rgba(168, 167, 167, 0.962) ;
+    font-family: 'Montserrat', sans-serif;
+}
+.d_eligible p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(168, 167, 167, 0.962) ;
+    font-family: 'Montserrat', sans-serif; 
+}
+.d_eligible .requirements h1{
+    text-align: start;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(0, 0, 0) ;
+    font-family: 'Montserrat', sans-serif; 
+}
+.d_eligible .requirements p{
+    color: rgba(24, 24, 24, 0.923);
+    text-align: start;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.d_form input[type=text], input[type=email], select {
+    width: 30%;
+    padding: 12px 0;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .d_form input[type=submit] {
+    width: 30%;
+    background-color: #a00 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .d_form input[type=submit]:hover {
+    background-color:#a00;
+  }
+  
+ .d_form{
+    padding: 20px;
+  }
